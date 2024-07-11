@@ -6,8 +6,6 @@
 
 *   ×代表无法免杀
 
-<!---->
-
 *   √代表可以免杀
 
 | 序号 | 项目地址                                                                                                 | 项目简介                                  | Microsoft Defender      | 火绒 | 360安全卫士 | 卡巴斯基 | 备注     |
@@ -51,63 +49,91 @@
 | RingQ                                                                                          | 免杀，exe2shellcode                                        | github                              | <https://github.com/T4y1oR/RingQ>                                                                                                                                      |
 | pe2shc.exe                                                                                     | pe\_to\_shellcode                                       | github                              | <https://github.com/hasherezade/pe_to_shellcode/>                                                                                                                      |
 
-
-
 # 免杀学习链接
 
 ## **🟢 比较近期的技术文章、或是一些免杀技术总结等**
 
-## \[【Web实战】先锋马免杀分享]\(<https://forum.butian.net/share/2530>
+## [【Web实战】先锋马免杀分享](https://forum.butian.net/share/2530)
 
-## \[AniYa-GUI免杀框架]\(<https://github.com/piiperxyz/AniYa/blob/main/README.md>
+## [AniYa-GUI免杀框架](https://github.com/piiperxyz/AniYa/blob/main/README.md)
 
-## \[释放看不见的威胁：利用钴攻击配置文件的力量来逃避 EDR]\(<https://whiteknightlabs.com/2023/05/23/unleashing-the-unseen-harnessing-the-power-of-cobalt-strike-profiles-for-edr-evasion/>
+## [释放看不见的威胁：利用钴攻击配置文件的力量来逃避 EDR](https://whiteknightlabs.com/2023/05/23/unleashing-the-unseen-harnessing-the-power-of-cobalt-strike-profiles-for-edr-evasion/)
 
-## \[go实现免杀(实用思路篇)]\(<https://xz.aliyun.com/t/14692?time__1311=mqmx9QDtDQ0%3DeGKDsdoYIKKWTumQDuQnQYD&alichlgref=https%3A%2F%2Fwww.google.com%2F#toc-20>
+## [go实现免杀(实用思路篇)](https://xz.aliyun.com/t/14692?time__1311=mqmx9QDtDQ0%3DeGKDsdoYIKKWTumQDuQnQYD\&alichlgref=https%3A%2F%2Fwww.google.com%2F#toc-20)
 
-## \[CobaltStrike的狩猎与反狩猎]\(<https://xz.aliyun.com/t/14798?time__1311=mqmx9QwxBDcQD%2FD0Dx2DUxsoD88QGOfYeD&alichlgref=https%3A%2F%2Fwww.google.com%2F>
+## [CobaltStrike的狩猎与反狩猎](https://xz.aliyun.com/t/14798?time__1311=mqmx9QwxBDcQD%2FD0Dx2DUxsoD88QGOfYeD\&alichlgref=https%3A%2F%2Fwww.google.com%2F)
 
-## \[【CS学习笔记】26、杀毒软件]\(<https://teamssix.com/200419-150726>
+## [【CS学习笔记】26、杀毒软件](https://teamssix.com/200419-150726)
 
-## \[进程启动&断链]\(<https://blog.csdn.net/m0_62466350/article/details/135918002>
+## [进程启动&断链](https://blog.csdn.net/m0_62466350/article/details/135918002)
 
-## \[攻击性 Windows IPC 内部原理 2：RPC]\(<https://csandker.io/2021/02/21/Offensive-Windows-IPC-2-RPC.html#finding-interesting-targets>
+## [攻击性 Windows IPC 内部原理 2：RPC](https://csandker.io/2021/02/21/Offensive-Windows-IPC-2-RPC.html#finding-interesting-targets)
 
-## \[shellcode-loader汇总]\(<https://github.com/xf555er/ShellcodeLoader>
+## [shellcode-loader汇总](https://github.com/xf555er/ShellcodeLoader)
 
-## \[CobaltStrike 4.9.10]\(<https://wx.zsxq.com/dweb2/index/topic_detail/411555822551258>
+## [CobaltStrike 4.9.10](https://wx.zsxq.com/dweb2/index/topic_detail/411555822551258)
 
-## \[COM调用 断链]\(<https://wx.zsxq.com/dweb2/index/topic_detail/814851241282852>
+## [COM调用 断链](https://wx.zsxq.com/dweb2/index/topic_detail/814851241282852)
 
-## \[杀软EDR都没检出？一文秒懂“银狐”四大绕过手法]\(<https://zhuanlan.zhihu.com/p/618457433>
+## [杀软EDR都没检出？一文秒懂“银狐”四大绕过手法](https://zhuanlan.zhihu.com/p/618457433)
 
-## \[攻防演练 | 分享一次应急处置案例]\(<https://cloud.tencent.com/developer/article/2326404>
+## [攻防演练 | 分享一次应急处置案例](https://cloud.tencent.com/developer/article/2326404)
 
-## \[学习免杀的笔记汇总]\(<https://github.com/xf555er/AntiAntiVirusNotes>
+## [学习免杀的笔记汇总](https://github.com/xf555er/AntiAntiVirusNotes)
 
-## \[免杀杂谈]\(<https://www.cnblogs.com/xiaoxin07/p/18118006>
+## [免杀杂谈](https://www.cnblogs.com/xiaoxin07/p/18118006)
 
-## \[红队技术-钓鱼手法及木马免杀技巧]\(<https://pizz33.github.io/posts/53de6033c423/>
+## [红队技术-钓鱼手法及木马免杀技巧](https://pizz33.github.io/posts/53de6033c423/)
 
-## \[助力每一位RT队员，快速生成免杀木马]\(<https://github.com/wangfly-me/LoaderFly>
+## [助力每一位RT队员，快速生成免杀木马](https://github.com/wangfly-me/LoaderFly)
 
-## \[免杀手法大总结（入门)]\(<https://xz.aliyun.com/t/14215?time__1311=mqmx9QiQi%3DgjD%2FD0DTGkbDCRKM4iTr9vD&alichlgref=https%3A%2F%2Fwww.google.com%2F>
+## [免杀手法大总结（入门)](https://xz.aliyun.com/t/14215?time__1311=mqmx9QiQi%3DgjD%2FD0DTGkbDCRKM4iTr9vD\&alichlgref=https%3A%2F%2Fwww.google.com%2F)
 
-## \[C++熵减法免杀-Mimikatz免杀]\(<https://cloud.tencent.com/developer/article/2360969>
+## [C++熵减法免杀-Mimikatz免杀](https://cloud.tencent.com/developer/article/2360969)
 
-## \[动态生成key免杀]\(<https://mp.weixin.qq.com/s?__biz=Mzg5MDg0NzUzMw==&mid=2247483697&idx=1&sn=40d0c408f382325eb3ece0ed7a303f14&chksm=cfd72973f8a0a0654a47c250b2d0dc3fa3239ec9479544a848bc4ec854b106b624427b1d3e90&scene=21#wechat_redirect>
+## [动态生成key免杀](https://mp.weixin.qq.com/s?__biz=Mzg5MDg0NzUzMw==\&mid=2247483697\&idx=1\&sn=40d0c408f382325eb3ece0ed7a303f14\&chksm=cfd72973f8a0a0654a47c250b2d0dc3fa3239ec9479544a848bc4ec854b106b624427b1d3e90\&scene=21#wechat_redirect)
 
-## \[免杀学习-从指令绕过开始(2)]\(<https://xz.aliyun.com/t/12760?time__1311=mqmhDvOGkD7D8Dlc%2BG7FcbPQTZlfDfOTD&alichlgref=https%3A%2F%2Fwww.google.com%2F>
+## [免杀学习-从指令绕过开始(2)](https://xz.aliyun.com/t/12760?time__1311=mqmhDvOGkD7D8Dlc%2BG7FcbPQTZlfDfOTD\&alichlgref=https%3A%2F%2Fwww.google.com%2F)
 
-## \[obj2shellcode 前人不仅具有智慧,更具分享精神]\(<https://mp.weixin.qq.com/s/sXX6hGeHVefESmmbw9IepQ>
+## [obj2shellcode 前人不仅具有智慧,更具分享精神](https://mp.weixin.qq.com/s/sXX6hGeHVefESmmbw9IepQ)
 
-## \[自定义跳转函数的unhook方法]\(<https://killer.wtf/2022/01/19/CustomJmpUnhook.html>
+## [自定义跳转函数的unhook方法](https://killer.wtf/2022/01/19/CustomJmpUnhook.html)
 
+## [rust 免杀，方法记录](https://github.com/xiao-zhu-zhu/RustBypassMap)
 
+## [混淆的文件或信息： 二进制填充](https://attack.mitre.org/techniques/T1027/001/)
 
+## [Raising Beacons without UDRLs and Teaching them How to Sleep](https://www.naksyn.com/cobalt%20strike/2024/07/02/raising-beacons-without-UDRLs-teaching-how-to-sleep.html)
 
+## [x86下借助回调函数以干净的栈执行内存权限修改](https://pastebin.com/XMfKJ9ZG)
 
+## [EDRPrison：借用合法WFP驱动程序来静音 EDR 代理](https://www.3nailsinfosec.com/post/edrprison-borrow-a-legitimate-driver-to-mute-edr-agent)
 
+## [规避ETW事件监控检测](https://s4dbrd.com/evading-etw-based-detections/)
+
+## [Windows Rootkit与Bootkit技术列表与威胁](https://artemonsecurity.blogspot.com/2024/07/windows-rootkits-and-bootkits-guide-v2.html)
+
+## [Windows 11 VBS enclave虚拟化保护技术](https://techcommunity.microsoft.com/t5/windows-os-platform-blog/securely-design-your-applications-and-protect-your-sensitive/ba-p/4179543)
+
+## [利用偏移数组在运行时构造载荷](https://github.com/NUL0x4C/FetchPayloadFromDummyFile)
+
+## [按需动态解密内存节区，闲置时重新加密](https://github.com/pygrum/gimmick)
+
+## [修改Powershell配置文件永久关闭AMSI与ETW](https://github.com/EvilBytecode/Lifetime-Amsi-EtwPatch)
+
+## [Bootkit内核修补检测绕过](https://tulach.cc/bootkits-and-kernel-patching/)
+
+## [借助VEH和汇编指令加密规避内存扫描](https://github.com/vxCrypt0r/Voidgate)
+
+## [睡眠状态Beacon识别工具](https://github.com/thefLink/Hunt-Sleeping-Beacons)
+
+## [恶意Windows进程、线程异常状态识别](https://www.trustedsec.com/blog/windows-processes-nefarious-anomalies-and-you-threads)
+
+## [绕过PowerShell ScriptBlock日志](<> "https://bc-security.org/scriptblock-smuggling/")
+
+## [借助硬件断点提取明文RDP密码](https://github.com/0xEr3bus/RdpStrike)
+
+## [渐进式 Web 应用程序 (PWA) 网络钓鱼](https://mrd0x.com/progressive-web-apps-pwa-phishing/)
 
 # 结束
 
