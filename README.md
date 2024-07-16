@@ -8,15 +8,23 @@
 
 *   √代表可以免杀
 
-| 序号 | 项目地址                                                                                                 | 项目简介                                  | Microsoft Defender      | 火绒 | 360安全卫士 | 卡巴斯基 | 备注     |
-| :- | :--------------------------------------------------------------------------------------------------- | :------------------------------------ | :---------------------- | :- | :------ | :--- | :----- |
-| 1  | <https://github.com/Pizz33/JoJoLoader>                                                               | 助力红队成员一键生成免杀木马，使用rust实现 (by\_hyyrent) | ×                       | √  | ×       | √    | 0708测试 |
-| 2  | <https://github.com/Joe1sn/S-inject>                                                                 | DLL+Shellcode的Windows注入免杀工具           | 罗列各种方法，免杀推荐搭配其他技巧，要灵活使用 |    |         |      |        |
-| 3  | [https://github.com/T4y1oR/RingQ](https://github.com/T4y1oR/RingQ "https://github.com/T4y1oR/RingQ") | 一键免杀上线CS、fscan、mimikatz ...           | ×                       | √  | √       | ×    | 0709测试 |
+#
+
+| 序号 | 项目地址                                                                                                                                           | 项目简介                                  | Microsoft Defender       | 火绒 | 360安全卫士 | 卡巴斯基 | 时间        | 备注                         |
+| :- | :--------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------ | :----------------------- | :- | :------ | :--- | :-------- | :------------------------- |
+| 1  | <https://github.com/Pizz33/JoJoLoader>                                                                                                         | 助力红队成员一键生成免杀木马，使用rust实现 (by\_hyyrent) | ×                        | √  | ×       | √    | 0708测试    |                            |
+| 2  | <https://github.com/Joe1sn/S-inject>                                                                                                           | DLL+Shellcode的Windows注入免杀工具           | 罗列各种方法，免杀推荐搭配其他技巧，要灵活使用  |    |         |      |           |                            |
+| 3  | [https://github.com/T4y1oR/RingQ](https://github.com/T4y1oR/RingQ "https://github.com/T4y1oR/RingQ")                                           | 一键免杀上线CS、fscan、mimikatz ...           | ×                        | √  | √       | ×    | 0709测试    | create.exe未开源              |
+| 4  | <https://github.com/HackerCalico/No_X_Memory_ShellCode_Loader>                                                                                 | 无可执行权限加载 ShellCode                    | 并非直接生成免杀马                |    |         |      |           |                            |
+| 5  | <https://github.com/Cherno-x/dataBrawl>                                                                                                        | 一键生成免杀木马的 shellcode 免杀框架              | 大型活动期间暂停维护，已删除核心template |    |         |      |           |                            |
+| 6  | [https://github.com/A-little-dragon/GoBypassAV](https://github.com/A-little-dragon/GoBypassAV "https://github.com/A-little-dragon/GoBypassAV") | Go语言编写的免杀工具，支持自动化随机加解密                | ×                        | ×  |         |      | 0416issue | 未开源;执行命令时出错： exit status 1 |
+| 7  | [https://github.com/Cipher7/ApexLdr](https://github.com/Cipher7/ApexLdr "https://github.com/Cipher7/ApexLdr")                                  | 纯C代码开发的DLL载荷加载器                       |                          |    |         |      |           | 开源、makefile                |
 
 # 免杀中用到的工具
 
 ## 🟢 **绝大部分无法直接生成免杀木马，开发、测试免杀时会用到。**
+
+#
 
 | 工具简称                                                                                           | 概述                                                      | 工具来源                                | 下载路径                                                                                                                                                                   |
 | :--------------------------------------------------------------------------------------------- | :------------------------------------------------------ | :---------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -48,6 +56,11 @@
 | S-inject                                                                                       | DLL+Shellcode的Windows注入免杀工具                             | github                              | [https://github.com/Joe1sn/S-inject](https://github.com/Joe1sn/S-inject "https://github.com/Joe1sn/S-inject")                                                          |
 | RingQ                                                                                          | 免杀，exe2shellcode                                        | github                              | <https://github.com/T4y1oR/RingQ>                                                                                                                                      |
 | pe2shc.exe                                                                                     | pe\_to\_shellcode                                       | github                              | <https://github.com/hasherezade/pe_to_shellcode/>                                                                                                                      |
+| pengcode                                                                                       | exe转换成shellcode                                         | github                              | <https://github.com/Mephostophiles/PengCode>                                                                                                                           |
+| SharpIncrease                                                                                  | 一种利用二进制填充来逃避 AV 的工具                                     | github                              | <https://github.com/mertdas/SharpIncrease>                                                                                                                             |
+| deoptimizer                                                                                    | 对shellcode进行反优化，rust                                    | github                              | <https://github.com/EgeBalci/deoptimizer>                                                                                                                              |
+| DojoLoader                                                                                     | 用于快速原型逃避技术的通用 PE 加载器                                    | github                              | <https://github.com/naksyn/DojoLoader>                                                                                                                                 |
+| FetchPayloadFromDummyFile                                                                      | 使用偏移量数组构造有效载荷                                           | github                              | <https://github.com/NUL0x4C/FetchPayloadFromDummyFile>                                                                                                                 |
 
 # 免杀学习链接
 
@@ -134,6 +147,28 @@
 ## [借助硬件断点提取明文RDP密码](https://github.com/0xEr3bus/RdpStrike)
 
 ## [渐进式 Web 应用程序 (PWA) 网络钓鱼](https://mrd0x.com/progressive-web-apps-pwa-phishing/)
+
+## [深入研究PE文件格式](https://0xrick.github.io/)
+
+## [自定义反射DLL与注入器项目](https://oldboy21.github.io/posts/2023/12/all-i-want-for-christmas-is-reflective-dll-injection/)
+
+## [Window Defender ASR规则提取工具](https://github.com/0xsp-SRD/MDE_Enum)
+
+## [禁用Windows Defender防篡改功能](https://github.com/AlteredSecurity/Disable-TamperProtection)
+
+## [File-Tunnel：借助文件隧道打通TCP连接](https://github.com/fiddyschmitt/File-Tunnel)
+
+## [借助合法取证工具绕过EDR读取NTDS.dit](https://medium.com/@0xcc00/bypassing-edr-ntds-dit-protection-using-blueteam-tools-1d161a554f9f)
+
+## [编写自己的C#混淆器](https://www.ribbiting-sec.info/posts/2024-06-05_csharp_obfuscator/)
+
+## [深入剖析Window内核Secure Image对象](https://connormcgarr.github.io/secure-images/)
+
+## [dirDevil：在文件夹结构中隐藏代码和内容](https://trustedsec.com/blog/dirdevil-hiding-code-and-content-within-folder-structures)
+
+## [40+43+74 种权限提升方法集合（Linux/Windows/macOS）](https://github.com/HadessCS/Awesome-Privilege-Escalation)
+
+
 
 # 结束
 
